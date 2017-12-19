@@ -16,7 +16,6 @@ import com.hjm.bottomtabbar.BottomTabBar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,5 +45,15 @@ public class MainActivity extends AppCompatActivity {
                         Log.i("TGA", "位置：" + position + "      选项卡：" + name);
                     }
                 });
+
+//
+//        .addTabItem("主页", R.drawable.sy2, R.drawable.sy1, FragmentOne.class)
+//                .addTabItem("热卖", R.drawable.wt2, R.drawable.wt1, FragmentTwo.class)
+//                .addTabItem("分类", R.drawable.fl2, R.drawable.fl1, FragmentThree.class)
+//                .addTabItem("购物车", R.drawable.gwc2, R.drawable.gwc1, FragmentFour.class)
+//                .addTabItem("我的", R.drawable.wd2, R.drawable.wd1, FragmentFive.class)
+
+
+
     }
 }
