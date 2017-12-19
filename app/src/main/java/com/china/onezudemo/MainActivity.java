@@ -16,7 +16,6 @@ import com.hjm.bottomtabbar.BottomTabBar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,5 +45,10 @@ public class MainActivity extends AppCompatActivity {
                         Log.i("TGA", "位置：" + position + "      选项卡：" + name);
                     }
                 });
+
+        Log.i("sss", "onCreate: ");
+
+
+
     }
 }
